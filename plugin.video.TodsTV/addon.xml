@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<addon id="plugin.video.TodsTV" version="1.0.0" name="TodsTV" provider-name="TodPheonix">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.metahandler" version="1.0.0"/>
+        <import addon="script.module.myconnpy" version="0.3.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>TodsTV Movies and TV Series</summary>
+        <description>This addon is supported By [COLOR blue]TodPheonix[/COLOR], [COLOR white][B]VISIT[/B][/COLOR]
+            [COLOR red]TodPheonix.cu.cc[/COLOR]. Play a wide selection of movies and TV shows. There is something for everyone
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
